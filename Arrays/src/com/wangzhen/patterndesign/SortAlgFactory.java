@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class SortAlgFactory {
-    private static final Map<String, ISortAlg> algs = new HashMap<>();
+    private static final Map<String, ISortAlg> algs = new HashMap<String, ISortAlg>();
 
     static {
         algs.put("QuickSort", new QuickSort());
